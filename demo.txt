@@ -1,0 +1,42 @@
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// const sum = function (a, b) {
+//   return a + b;
+// }
+
+// const sum = (a, b) => {
+//   return a + b;
+// };
+
+// const sum = (a, b) => a + b;
+
+// callBackFunction ------>
+
+// const callBackFun = () => {
+//   let res = sum(12, 3);
+//   console.log(res);
+// };
+// callBackFun();
+
+// auto call function----->IIFE fun
+// (function () {
+//   console.log("asgra");
+// })();
+
+// let res = sum(12, 3);
+// console.log(res);
+
+// var fs =  require("fs");
+// var os =  require("os");
+
+// const user = os.userInfo();
+// console.log(user)
+
+// ----------------------------------------->
+
+// const info = require("./info");
+// console.log(info.age, info.name, result);
+// var age = info.age;
+// const result = info.addNUm(age, 10);
